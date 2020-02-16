@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">fatec_ipi_exercicio_países_pratos</string>
+    <string name="pais">Ελλάδα</string>
+    <string name="prato">μουσακάς</string>
+</resources>

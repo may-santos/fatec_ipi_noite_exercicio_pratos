@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/exercicioLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/paisTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/pais"
+        android:textColor="@color/pais_text_color"
+        android:textSize="@dimen/textview_smart"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/paisImageView"
+        android:layout_width="@dimen/smartphone"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:contentDescription="@string/pais"
+        app:srcCompat="@drawable/pais" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/pratoImageView"
+        android:layout_width="@dimen/smartphone"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:contentDescription="@string/prato"
+        app:srcCompat="@drawable/prato" />
+
+    <TextView
+        android:id="@+id/nomePratoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/prato"
+        android:textColor="@color/pais_text_color"
+        android:textSize="@dimen/textview_smart"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
